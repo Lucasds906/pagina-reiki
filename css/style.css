@@ -126,7 +126,19 @@ hr {
   background-color: #FFEFD2;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.5); }
+  .footer .footerContacto {
+    width: 50%; }
+    .footer .footerContacto #contacto {
+      display: flex;
+      align-items: center;
+      color: #591D0F; }
+      .footer .footerContacto #contacto img {
+        width: 1.6rem;
+        height: 1.6rem; }
   .footer .fotoPersonal {
     margin: 2rem; }
     .footer .fotoPersonal img {
@@ -134,3 +146,31 @@ hr {
       height: 19rem;
       border-top-left-radius: 8rem;
       border-top-right-radius: 8rem; }
+
+.headerBeneficios {
+  margin-top: 6rem; }
+
+.sectionBeneficios {
+  margin: 4rem 4rem 0rem 4rem;
+  padding-top: 4rem; }
+  .sectionBeneficios div {
+    text-align: center; }
+    .sectionBeneficios div img {
+      width: 20rem;
+      height: 25rem;
+      padding-bottom: rem; }
+  .sectionBeneficios h2 {
+    color: #9B6D4C;
+    font-size: 2.25rem;
+    font-family: 'Poppins', sans-serif; }
+  .sectionBeneficios h3 {
+    font-size: 2.125rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 4rem; }
+  .sectionBeneficios p {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem; }
+  .sectionBeneficios span {
+    color: #383B3E; }

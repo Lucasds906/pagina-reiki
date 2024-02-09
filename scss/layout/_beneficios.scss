@@ -1,0 +1,34 @@
+.headerBeneficios {
+    margin-top: 6rem;
+}
+.sectionBeneficios {
+    margin: 4rem 4rem 0rem 4rem;
+    padding-top: 4rem;
+    div {
+        text-align: center;
+        img {
+            width: 20rem;
+            height: 25rem;
+            padding-bottom: rem;
+        }
+    }
+    h2 {
+        color: #9B6D4C;
+        font-size: 2.25rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    h3 {
+        font-size: 2.125rem;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 4rem;
+    }
+    p {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    }
+    span {
+        color: #383B3E;
+    }
+}
