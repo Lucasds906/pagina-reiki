@@ -1,0 +1,129 @@
+.header {
+    margin-top: -6rem;
+    width: 100%;
+    position: fixed;
+    background-color: #FFEFD2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    img {
+        width: 5rem;
+        height: 5rem;
+        margin-top: .2rem;
+    }
+    .headerLogo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 2.5rem;
+        gap: .7rem;
+        margin: 1rem 1rem 1rem 5.5rem;
+        h2 {
+            font-family: 'Dancing Script', cursive;
+            color: #591D0F;
+        }
+    }
+    .navBar {
+        height: 100%;
+        ul {
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2.3rem;
+            margin-right: 5.5rem;
+            li {
+                font-family: 'Poppins', sans-serif;
+                font-size: 1.9rem;
+                color: #591D0F;
+            }
+        }
+    }
+}
+
+.imgContainer {
+    margin-top: 6rem;
+    height: 80vh;
+    width: 100%;
+    background-image: url(../assets/img/paciente1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 1rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    h1 {
+        width: 25%;
+        margin: 10rem 0rem 0rem 4rem;
+        font-size: 3rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    h3 {
+        width: 50%;
+        margin-left: 4rem;
+        font-size: 1.5rem;
+        font-family: 'Assistant', sans-serif;
+        font-weight: 150;
+    }
+    button {
+        all: initial;
+        text-align: center;
+        width: 18rem;
+        height: 2rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+        color: white;
+        border: solid 1px white;
+        border-radius: 1.5rem;
+        padding: .5rem;
+        background-color: #591d0f42;
+        cursor: pointer;
+    }
+}
+h3 {
+    font-size: 2.125rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 4rem;
+}
+.terapias {
+    margin: 5rem 4rem 1rem 4rem;
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.25rem;
+        color: #9B6D4C;
+        margin-bottom: .3rem;
+    }
+}
+p {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: #000;
+    margin: 2rem;
+}
+.miEspacio {
+    margin: 4rem;
+    span {
+        color: #9B6D4C;
+    }
+}
+.galeriaContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: space-around;
+    img {
+        width: 20rem;
+        height: 25rem;
+    }
+}
