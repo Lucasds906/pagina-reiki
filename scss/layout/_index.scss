@@ -1,3 +1,7 @@
+
+    // .letterColor {
+    //     color: #b41e00 !important;
+    // }
 .header {
     margin-top: -6rem;
     width: 100%;
@@ -34,9 +38,14 @@
             gap: 2.3rem;
             margin-right: 5.5rem;
             li {
-                font-family: 'Poppins', sans-serif;
-                font-size: 1.9rem;
-                color: #591D0F;
+                a {
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 1.9rem;
+                    color: #591D0F;
+                    &:hover {
+                        color: #b41e00;
+                    }    
+                }
             }
         }
     }
@@ -70,6 +79,9 @@
         font-family: 'Assistant', sans-serif;
         font-weight: 150;
     }
+    a {
+        width: 18rem;
+    }
     button {
         all: initial;
         text-align: center;
@@ -90,7 +102,8 @@ h3 {
     font-family: 'Poppins', sans-serif;
     margin-bottom: 4rem;
 }
-.terapias {
+#terapias {
+    scroll-margin-top: 8rem;
     margin: 5rem 5.5rem 1rem 5.5rem;
     h2 {
         font-family: 'Poppins', sans-serif;
@@ -111,7 +124,8 @@ hr {
     background-color: #000;
     margin: 2rem;
 }
-.miEspacio {
+#miEspacio {
+    scroll-margin-top: 8rem;
     margin: 5.5rem;
     span {
         color: #9B6D4C;
@@ -135,9 +149,8 @@ hr {
     align-items: center;
     padding: 2rem;
     box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.5);
-
-    .footerContacto {
-        
+    #footerContacto {
+        scroll-margin-top: 8rem;
         width: 50%;
         #contacto {
             display: flex;

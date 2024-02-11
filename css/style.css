@@ -38,10 +38,12 @@
       align-items: center;
       gap: 2.3rem;
       margin-right: 5.5rem; }
-      .header .navBar ul li {
+      .header .navBar ul li a {
         font-family: 'Poppins', sans-serif;
         font-size: 1.9rem;
         color: #591D0F; }
+        .header .navBar ul li a:hover {
+          color: #b41e00; }
 
 .imgContainer {
   margin-top: 6rem;
@@ -69,6 +71,8 @@
     font-size: 1.5rem;
     font-family: 'Assistant', sans-serif;
     font-weight: 150; }
+  .imgContainer a {
+    width: 18rem; }
   .imgContainer button {
     all: initial;
     text-align: center;
@@ -88,9 +92,10 @@ h3 {
   font-family: 'Poppins', sans-serif;
   margin-bottom: 4rem; }
 
-.terapias {
+#terapias {
+  scroll-margin-top: 8rem;
   margin: 5rem 5.5rem 1rem 5.5rem; }
-  .terapias h2 {
+  #terapias h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 2.25rem;
     color: #9B6D4C;
@@ -108,9 +113,10 @@ hr {
   background-color: #000;
   margin: 2rem; }
 
-.miEspacio {
+#miEspacio {
+  scroll-margin-top: 8rem;
   margin: 5.5rem; }
-  .miEspacio span {
+  #miEspacio span {
     color: #9B6D4C; }
 
 .galeriaContainer {
@@ -130,13 +136,14 @@ hr {
   align-items: center;
   padding: 2rem;
   box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.5); }
-  .footer .footerContacto {
+  .footer #footerContacto {
+    scroll-margin-top: 8rem;
     width: 50%; }
-    .footer .footerContacto #contacto {
+    .footer #footerContacto #contacto {
       display: flex;
       align-items: center;
       color: #591D0F; }
-      .footer .footerContacto #contacto img {
+      .footer #footerContacto #contacto img {
         width: 1.6rem;
         height: 1.6rem; }
   .footer .fotoPersonal {
